@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://stariverony.github.io</id>
+    <title>Hexo</title>
+    <link href="https://stariverony.github.io" />
+    <updated>2023-03-05T00:43:31.000Z</updated>
+    <entry>
+        <id>https://stariverony.github.io/2023/03/05/komota/</id>
+        <title>komota</title>
+        <link rel="alternate" href="https://stariverony.github.io/2023/03/05/komota/"/>
+        <content type="html">&lt;p&gt;首先，komota 老师是神&lt;br&gt;
+其次，komota 老师是神&lt;br&gt;
+最后，komota 老师是神&lt;/p&gt;
+</content>
+        <updated>2023-03-05T00:43:31.000Z</updated>
+    </entry>
+</feed>
