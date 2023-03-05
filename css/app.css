@@ -2247,12 +2247,6 @@ main >.inner {
 .social .item.music i {
   color: #e60026;
 }
-.social .item.youtube::before {
-  background-color: outub;
-}
-.social .item.youtube i {
-  color: outub;
-}
 .social .item:focus i,
 .social .item:hover i {
   color: var(--grey-0);
