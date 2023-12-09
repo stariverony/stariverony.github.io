@@ -22,6 +22,20 @@ fanbox: [&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jdXN0b211ZG9uL
 &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;以下内容需翻墙观看&lt;/p&gt;
 &lt;/div&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.iframe-container {
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframe-container iframe {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+}
+&lt;/style&gt;
+&lt;blockquote&gt;&lt;/blockquote&gt;
 &lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;眠った子&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9GMmdCMVNiQiN1eGtpT2QxazhCeV9vcWFESGc1eUdR&#34; data-background-image=&#34;https://2021.liuli.app/21062101.jpg&#34;&gt;&lt;/span&gt;
           &lt;div class=&#34;info&#34;&gt;
           &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9GMmdCMVNiQiN1eGtpT2QxazhCeV9vcWFESGc1eUdR&#34;&gt;眠った子&lt;/span&gt;

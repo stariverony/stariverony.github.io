@@ -3,11 +3,19 @@
     <id>https://rainectarony.github.io</id>
     <title>Hexo</title>
     <link href="https://rainectarony.github.io" />
-    <updated>2023-05-20T11:36:39.000Z</updated>
+    <updated>2023-12-09T13:36:44.000Z</updated>
     <category term="里番" />
     <category term="动画" />
     <category term="本子" />
     <category term="galgame" />
+    <entry>
+        <id>https://rainectarony.github.io/2023/12/09/%E7%A8%9A%E5%AD%90%E7%9A%84%E7%AC%94%E8%AE%B0/</id>
+        <title>稚子的笔记</title>
+        <link rel="alternate" href="https://rainectarony.github.io/2023/12/09/%E7%A8%9A%E5%AD%90%E7%9A%84%E7%AC%94%E8%AE%B0/"/>
+        <content type="html">  &lt;iframe src=&#34;http://v16m-default.akamaized.net/44a3d66530ff8e3e0c780d1aae11ee80/6574bcfd/video/tos/alisg/tos-alisg-v-0000/oEC6bMnFeZRbUuqf5tA3gJxDS7KeIGG9DUAA2g/?a=2011&amp;ch=0&amp;cr=0&amp;dr=0&amp;net=5&amp;cd=0%7C0%7C0%7C0&amp;br=2008&amp;bt=1004&amp;bti=MzhALjBg&amp;cs=0&amp;ds=3&amp;ft=iJOG.y7oZZv0PD1Z4d2xg9wz.DKlBEeC~&amp;mime_type=video_mp4&amp;qs=0&amp;rc=NDhnOzc1OTY8OTxmOmY4N0BpajN5aDg6ZmZrZzMzODYzNEBhMGM0My81NS0xMTIuMDEuYSNxb3NfcjRfXnBgLS1kMC1zcw%3D%3D&amp;l=20231209125232321F4560CAF387B72F90&amp;btag=e000a8000&#34; autoplay=&#34;false&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;</content>
+        <category term="动画" />
+        <updated>2023-12-09T13:36:44.000Z</updated>
+    </entry>
     <entry>
         <id>https://rainectarony.github.io/2023/05/20/ben-10/</id>
         <title>ben 10</title>
@@ -91,6 +99,20 @@ fanbox: [&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jdXN0b211ZG9uL
 &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;以下内容需翻墙观看&lt;/p&gt;
 &lt;/div&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.iframe-container {
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframe-container iframe {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+}
+&lt;/style&gt;
+&lt;blockquote&gt;&lt;/blockquote&gt;
 &lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;眠った子&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9GMmdCMVNiQiN1eGtpT2QxazhCeV9vcWFESGc1eUdR&#34; data-background-image=&#34;https://2021.liuli.app/21062101.jpg&#34;&gt;&lt;/span&gt;
           &lt;div class=&#34;info&#34;&gt;
           &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9GMmdCMVNiQiN1eGtpT2QxazhCeV9vcWFESGc1eUdR&#34;&gt;眠った子&lt;/span&gt;
@@ -300,22 +322,22 @@ R.I.P&lt;br&gt;
 &lt;p&gt;观影顺序↓↓↓（先看预告！！！）&lt;br&gt;
 预告:&lt;/p&gt;
 &lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;Ruby&lt;/summary&gt;&lt;div&gt;
-&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=19261750&amp;bvid=BV1UW411J74N&amp;cid=31412913&amp;page=1&amp;autoplay=false&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;off&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=19261750&amp;bvid=BV1UW411J74N&amp;cid=31412913&amp;page=1&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&gt; &lt;/iframe&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;details&gt;&lt;summary&gt;Weiss&lt;/summary&gt;&lt;div&gt;
-&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=19299787&amp;bvid=BV1FW411n7wG&amp;cid=31473054&amp;page=1&amp;autoplay=false&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=19299787&amp;bvid=BV1FW411n7wG&amp;cid=31473054&amp;page=1&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&gt; &lt;/iframe&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Blake&lt;/summary&gt;&lt;div&gt;
-&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=12282033&amp;bvid=BV1Jx411B7LF&amp;cid=20237230&amp;page=1&amp;autoplay=false&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=12282033&amp;bvid=BV1Jx411B7LF&amp;cid=20237230&amp;page=1&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&gt; &lt;/iframe&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;Yang&lt;/summary&gt;&lt;div&gt;
-&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=19314946&amp;bvid=BV1LW411n7F2&amp;cid=31498515&amp;page=1&amp;autoplay=false&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=19314946&amp;bvid=BV1LW411n7F2&amp;cid=31498515&amp;page=1&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&gt; &lt;/iframe&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;RWBY第一季&lt;/summary&gt;&lt;div&gt;
-&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=828465&amp;bvid=BV1is411o79h&amp;cid=1204632&amp;page=1&amp;autoplay=false&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=828465&amp;bvid=BV1is411o79h&amp;cid=1204632&amp;page=1&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&gt; &lt;/iframe&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;RWBY第二季&lt;/summary&gt;&lt;div&gt;
-&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=1670000&amp;bvid=BV1xx411P7hy&amp;cid=2019508&amp;page=1&amp;autoplay=false&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=1670000&amp;bvid=BV1xx411P7hy&amp;cid=2019508&amp;page=1&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&gt; &lt;/iframe&gt;
 &lt;/div&gt;&lt;/details&gt;
 </content>
         <category term="动画" />
