@@ -1,31 +1,16 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>Hexo</title>
-        <link>https://stariverony.github.io</link>
-        <description></description>
-        <language>en</language>
-        <pubDate>Sun, 24 Aug 2025 16:52:56 +0800</pubDate>
-        <lastBuildDate>Sun, 24 Aug 2025 16:52:56 +0800</lastBuildDate>
-        <category>动画</category>
-        <category>本子</category>
-        <item>
-            <guid isPermalink="true">https://stariverony.github.io/2025/08/24/%E6%B5%8B%E8%AF%95%E9%A1%B5%E9%9D%A2/</guid>
-            <title>测试页面</title>
-            <link>https://stariverony.github.io/2025/08/24/%E6%B5%8B%E8%AF%95%E9%A1%B5%E9%9D%A2/</link>
-            <pubDate>Sun, 24 Aug 2025 16:52:56 +0800</pubDate>
-            <description><![CDATA[ &lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://stariverony.github.io/picx-images-hosting/mlp-2238382.3d54jtmmei.webp&#34; alt=&#34;小呆&#34;&gt;&lt;br&gt;
-&lt;img data-src=&#34;https://stariverony.github.io/picx-images-hosting/%E8%B1%86%E8%8A%BD%E4%B8%9D.5fkx7vlii2.webp&#34; alt=&#34;源樱&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://stariverony.github.io/2023/12/09/%E7%A8%9A%E5%AD%90%E7%9A%84%E7%AC%94%E8%AE%B0/</guid>
-            <title>稚子的笔记</title>
-            <link>https://stariverony.github.io/2023/12/09/%E7%A8%9A%E5%AD%90%E7%9A%84%E7%AC%94%E8%AE%B0/</link>
-            <category>动画</category>
-            <pubDate>Sat, 09 Dec 2023 21:36:44 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;https://so1.360tres.com/t01c3df83f9d4fe1776.jpg&#34; alt=&#34;樱木雏子&#34; height=&#34;365px&#34;&gt;	&lt;br&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://stariverony.github.io</id>
+    <title>Hexo • Posts by &#34;动画&#34; category</title>
+    <link href="https://stariverony.github.io" />
+    <updated>2023-12-09T13:36:44.000Z</updated>
+    <category term="动画" />
+    <category term="本子" />
+    <entry>
+        <id>https://stariverony.github.io/2023/12/09/%E7%A8%9A%E5%AD%90%E7%9A%84%E7%AC%94%E8%AE%B0/</id>
+        <title>稚子的笔记</title>
+        <link rel="alternate" href="https://stariverony.github.io/2023/12/09/%E7%A8%9A%E5%AD%90%E7%9A%84%E7%AC%94%E8%AE%B0/"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;https://so1.360tres.com/t01c3df83f9d4fe1776.jpg&#34; alt=&#34;樱木雏子&#34; height=&#34;365px&#34;&gt;	&lt;br&gt;
 &lt;span class=&#34;red&#34;&gt;樱木雏子&lt;/span&gt;&lt;br&gt;
  CV：M・A・O（幼年：栗本有规）&lt;br&gt;
 一见人就会像稻草人一样僵住，不擅长和人交谈的女孩子。由于在乡下受到动物的喜爱，而真的担任过稻草人的工作。为了趁升入高中时加入自己憧憬的演剧部而上京，并开始寄宿在春夏秋冬庄。任何事情都很拼命的努力家。&lt;br&gt;
@@ -120,15 +105,15 @@
           &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://stariverony.github.io/2023/03/05/RWBY/</guid>
-            <title>RWBY</title>
-            <link>https://stariverony.github.io/2023/03/05/RWBY/</link>
-            <category>动画</category>
-            <pubDate>Sun, 05 Mar 2023 14:47:25 +0800</pubDate>
-            <description><![CDATA[ &lt;p class=&#34;red&#34;&gt;Let Red fills your dream with roses,&lt;br&gt;
+</content>
+        <category term="动画" />
+        <updated>2023-12-09T13:36:44.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://stariverony.github.io/2023/03/05/RWBY/</id>
+        <title>RWBY</title>
+        <link rel="alternate" href="https://stariverony.github.io/2023/03/05/RWBY/"/>
+        <content type="html">&lt;p class=&#34;red&#34;&gt;Let Red fills your dream with roses,&lt;br&gt;
  让红色的玫瑰点满你永远的梦境，&lt;/p&gt;
 &lt;p class=&#34;red&#34;&gt;Let White make your path to the heaven with ice,&lt;br&gt;
  让白色的冰雪铺盖通往天堂的道路，&lt;/p&gt;
@@ -283,24 +268,8 @@ Good bye and thank you&lt;/p&gt;
   });
 })();&lt;/script&gt;
 
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://stariverony.github.io/2023/03/05/karory/</guid>
-            <title>karory</title>
-            <link>https://stariverony.github.io/2023/03/05/karory/</link>
-            <category>本子</category>
-            <pubDate>Sun, 05 Mar 2023 14:31:50 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://stariverony.github.io/2023/03/05/komota/</guid>
-            <title>komota</title>
-            <link>https://stariverony.github.io/2023/03/05/komota/</link>
-            <category>本子</category>
-            <pubDate>Sun, 05 Mar 2023 08:43:31 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;图片展示&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="动画" />
+        <updated>2023-03-05T06:47:25.000Z</updated>
+    </entry>
+</feed>

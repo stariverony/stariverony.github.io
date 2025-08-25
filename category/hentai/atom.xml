@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://stariverony.github.io</id>
+    <title>Hexo • Posts by &#34;hentai&#34; category</title>
+    <link href="https://stariverony.github.io" />
+    <updated>2023-03-05T00:43:31.000Z</updated>
+    <category term="动画" />
+    <category term="本子" />
+    <entry>
+        <id>https://stariverony.github.io/2023/03/05/komota/</id>
+        <title>komota</title>
+        <link rel="alternate" href="https://stariverony.github.io/2023/03/05/komota/"/>
+        <content type="html">&lt;p&gt;图片展示&lt;/p&gt;
+</content>
+        <category term="本子" />
+        <updated>2023-03-05T00:43:31.000Z</updated>
+    </entry>
+</feed>
