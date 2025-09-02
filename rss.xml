@@ -9,17 +9,17 @@
         <lastBuildDate>Mon, 25 Aug 2025 21:30:06 +0800</lastBuildDate>
         <category>动画</category>
         <category>本子</category>
+        <category>多视角</category>
         <category>游戏</category>
+        <category>JPRG</category>
         <category>休闲</category>
         <category>模拟经营</category>
-        <category>多视角</category>
-        <category>JPRG</category>
         <item>
             <guid isPermalink="true">https://stariverony.github.io/2025/08/25/%E5%85%AB%E6%96%B9%E6%97%85%E4%BA%BA2/</guid>
             <title>八方旅人2</title>
             <link>https://stariverony.github.io/2025/08/25/%E5%85%AB%E6%96%B9%E6%97%85%E4%BA%BA2/</link>
-            <category>游戏</category>
             <category>多视角</category>
+            <category>游戏</category>
             <category>JPRG</category>
             <pubDate>Mon, 25 Aug 2025 21:30:06 +0800</pubDate>
             <description><![CDATA[ &lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;攻略&lt;/summary&gt;&lt;div&gt;
@@ -248,18 +248,18 @@ Good bye and thank you&lt;/p&gt;
 &lt;p&gt;观影顺序↓↓↓（先看预告！！！）&lt;br&gt;
 预告:&lt;/p&gt;
 
-&lt;details id=&#34;bili_jotucn7psug&#34; style=&#34;margin:1em 0; border:1px solid #ff9999; border-radius:6px;&#34;&gt;
+&lt;details id=&#34;bili_6hqy4hox4xw&#34; style=&#34;margin:1em 0; border:1px solid #ff9999; border-radius:6px;&#34;&gt;
   &lt;summary style=&#34;cursor:pointer; user-select:none; display:flex; align-items:center; gap:6px; padding:6px 10px; background-color:#ff9999; border-radius:4px;&#34;&gt;
     &lt;span style=&#34;color:#FF0000; font-weight:bold;&#34;&gt;Ruby&lt;/span&gt;
     
   &lt;/summary&gt;
   &lt;div style=&#34;position:relative; width:100%; padding-bottom:56.25%; margin-top:6px;&#34;&gt;
-    &lt;iframe id=&#34;bili_jotucn7psug_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1UW411J74N&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe id=&#34;bili_6hqy4hox4xw_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1UW411J74N&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
   &lt;/div&gt;
 &lt;/details&gt;
 &lt;script&gt;(function(){
-  var box = document.getElementById(&#39;bili_jotucn7psug&#39;);
-  var iframe = document.getElementById(&#39;bili_jotucn7psug_iframe&#39;);
+  var box = document.getElementById(&#39;bili_6hqy4hox4xw&#39;);
+  var iframe = document.getElementById(&#39;bili_6hqy4hox4xw_iframe&#39;);
   var original = iframe.src;
   box.addEventListener(&#39;toggle&#39;, function(){
     if(!box.open){
@@ -270,18 +270,18 @@ Good bye and thank you&lt;/p&gt;
 })();&lt;/script&gt;
 
 
-&lt;details id=&#34;bili_ehvjqnplup&#34; style=&#34;margin:1em 0; border:1px solid #F0F0F0; border-radius:6px;&#34;&gt;
+&lt;details id=&#34;bili_lq2ncslwpgl&#34; style=&#34;margin:1em 0; border:1px solid #F0F0F0; border-radius:6px;&#34;&gt;
   &lt;summary style=&#34;cursor:pointer; user-select:none; display:flex; align-items:center; gap:6px; padding:6px 10px; background-color:#F0F0F0; border-radius:4px;&#34;&gt;
     &lt;span style=&#34;color:#555555; font-weight:bold;&#34;&gt;Weiss&lt;/span&gt;
     
   &lt;/summary&gt;
   &lt;div style=&#34;position:relative; width:100%; padding-bottom:56.25%; margin-top:6px;&#34;&gt;
-    &lt;iframe id=&#34;bili_ehvjqnplup_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1FW411n7wG&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe id=&#34;bili_lq2ncslwpgl_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1FW411n7wG&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
   &lt;/div&gt;
 &lt;/details&gt;
 &lt;script&gt;(function(){
-  var box = document.getElementById(&#39;bili_ehvjqnplup&#39;);
-  var iframe = document.getElementById(&#39;bili_ehvjqnplup_iframe&#39;);
+  var box = document.getElementById(&#39;bili_lq2ncslwpgl&#39;);
+  var iframe = document.getElementById(&#39;bili_lq2ncslwpgl_iframe&#39;);
   var original = iframe.src;
   box.addEventListener(&#39;toggle&#39;, function(){
     if(!box.open){
@@ -292,18 +292,18 @@ Good bye and thank you&lt;/p&gt;
 })();&lt;/script&gt;
 
 
-&lt;details id=&#34;bili_xissf1aaskp&#34; style=&#34;margin:1em 0; border:1px solid #cc99cc; border-radius:6px;&#34;&gt;
+&lt;details id=&#34;bili_371thzwt2fx&#34; style=&#34;margin:1em 0; border:1px solid #cc99cc; border-radius:6px;&#34;&gt;
   &lt;summary style=&#34;cursor:pointer; user-select:none; display:flex; align-items:center; gap:6px; padding:6px 10px; background-color:#cc99cc; border-radius:4px;&#34;&gt;
     &lt;span style=&#34;color:#800080; font-weight:bold;&#34;&gt;Black&lt;/span&gt;
     
   &lt;/summary&gt;
   &lt;div style=&#34;position:relative; width:100%; padding-bottom:56.25%; margin-top:6px;&#34;&gt;
-    &lt;iframe id=&#34;bili_xissf1aaskp_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1Jx411B7LF&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe id=&#34;bili_371thzwt2fx_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1Jx411B7LF&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
   &lt;/div&gt;
 &lt;/details&gt;
 &lt;script&gt;(function(){
-  var box = document.getElementById(&#39;bili_xissf1aaskp&#39;);
-  var iframe = document.getElementById(&#39;bili_xissf1aaskp_iframe&#39;);
+  var box = document.getElementById(&#39;bili_371thzwt2fx&#39;);
+  var iframe = document.getElementById(&#39;bili_371thzwt2fx_iframe&#39;);
   var original = iframe.src;
   box.addEventListener(&#39;toggle&#39;, function(){
     if(!box.open){
@@ -314,18 +314,18 @@ Good bye and thank you&lt;/p&gt;
 })();&lt;/script&gt;
 
 
-&lt;details id=&#34;bili_y450wiprcb&#34; style=&#34;margin:1em 0; border:1px solid #FFFF80; border-radius:6px;&#34;&gt;
+&lt;details id=&#34;bili_6inuxukb8px&#34; style=&#34;margin:1em 0; border:1px solid #FFFF80; border-radius:6px;&#34;&gt;
   &lt;summary style=&#34;cursor:pointer; user-select:none; display:flex; align-items:center; gap:6px; padding:6px 10px; background-color:#FFFF80; border-radius:4px;&#34;&gt;
     &lt;span style=&#34;color:#FFD700; font-weight:bold;&#34;&gt;Yang&lt;/span&gt;
     
   &lt;/summary&gt;
   &lt;div style=&#34;position:relative; width:100%; padding-bottom:56.25%; margin-top:6px;&#34;&gt;
-    &lt;iframe id=&#34;bili_y450wiprcb_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1LW411n7F2&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe id=&#34;bili_6inuxukb8px_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1LW411n7F2&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
   &lt;/div&gt;
 &lt;/details&gt;
 &lt;script&gt;(function(){
-  var box = document.getElementById(&#39;bili_y450wiprcb&#39;);
-  var iframe = document.getElementById(&#39;bili_y450wiprcb_iframe&#39;);
+  var box = document.getElementById(&#39;bili_6inuxukb8px&#39;);
+  var iframe = document.getElementById(&#39;bili_6inuxukb8px_iframe&#39;);
   var original = iframe.src;
   box.addEventListener(&#39;toggle&#39;, function(){
     if(!box.open){
@@ -336,18 +336,18 @@ Good bye and thank you&lt;/p&gt;
 })();&lt;/script&gt;
 
 
-&lt;details id=&#34;bili_724rwqnzhi&#34; style=&#34;margin:1em 0; border:1px solid #ff9999; border-radius:6px;&#34;&gt;
+&lt;details id=&#34;bili_k8vtruljc2&#34; style=&#34;margin:1em 0; border:1px solid #ff9999; border-radius:6px;&#34;&gt;
   &lt;summary style=&#34;cursor:pointer; user-select:none; display:flex; align-items:center; gap:6px; padding:6px 10px; background-color:#ff9999; border-radius:4px;&#34;&gt;
     &lt;span style=&#34;color:#FF0000; font-weight:bold;&#34;&gt;RWBY第一季&lt;/span&gt;
     
   &lt;/summary&gt;
   &lt;div style=&#34;position:relative; width:100%; padding-bottom:56.25%; margin-top:6px;&#34;&gt;
-    &lt;iframe id=&#34;bili_724rwqnzhi_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1is411o79h&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe id=&#34;bili_k8vtruljc2_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1is411o79h&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
   &lt;/div&gt;
 &lt;/details&gt;
 &lt;script&gt;(function(){
-  var box = document.getElementById(&#39;bili_724rwqnzhi&#39;);
-  var iframe = document.getElementById(&#39;bili_724rwqnzhi_iframe&#39;);
+  var box = document.getElementById(&#39;bili_k8vtruljc2&#39;);
+  var iframe = document.getElementById(&#39;bili_k8vtruljc2_iframe&#39;);
   var original = iframe.src;
   box.addEventListener(&#39;toggle&#39;, function(){
     if(!box.open){
@@ -358,18 +358,18 @@ Good bye and thank you&lt;/p&gt;
 })();&lt;/script&gt;
 
 
-&lt;details id=&#34;bili_q75iqa4paa&#34; style=&#34;margin:1em 0; border:1px solid #ff9999; border-radius:6px;&#34;&gt;
+&lt;details id=&#34;bili_qgl48us6juh&#34; style=&#34;margin:1em 0; border:1px solid #ff9999; border-radius:6px;&#34;&gt;
   &lt;summary style=&#34;cursor:pointer; user-select:none; display:flex; align-items:center; gap:6px; padding:6px 10px; background-color:#ff9999; border-radius:4px;&#34;&gt;
     &lt;span style=&#34;color:#FF0000; font-weight:bold;&#34;&gt;RWBY第二季&lt;/span&gt;
     
   &lt;/summary&gt;
   &lt;div style=&#34;position:relative; width:100%; padding-bottom:56.25%; margin-top:6px;&#34;&gt;
-    &lt;iframe id=&#34;bili_q75iqa4paa_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1xx411P7hy&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe id=&#34;bili_qgl48us6juh_iframe&#34; src=&#34;https://player.bilibili.com/player.html?bvid=BV1xx411P7hy&amp;autoplay=false&amp;high_quality=1&amp;danmaku=0&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;position:absolute; top:0; left:0; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;
   &lt;/div&gt;
 &lt;/details&gt;
 &lt;script&gt;(function(){
-  var box = document.getElementById(&#39;bili_q75iqa4paa&#39;);
-  var iframe = document.getElementById(&#39;bili_q75iqa4paa_iframe&#39;);
+  var box = document.getElementById(&#39;bili_qgl48us6juh&#39;);
+  var iframe = document.getElementById(&#39;bili_qgl48us6juh_iframe&#39;);
   var original = iframe.src;
   box.addEventListener(&#39;toggle&#39;, function(){
     if(!box.open){
