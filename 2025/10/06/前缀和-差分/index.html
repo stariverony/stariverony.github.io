@@ -147,7 +147,7 @@ stariverony = Hexo</title>
 
     <p class="red">说是前缀和 &amp; 差分，但本篇文章只给了 2 道前缀和的题目，嘛，没差，都那样。</p>
 <p>这篇文章讲的很好，图文并用：<span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2YzNjc5MDc0MS9hcnRpY2xlL2RldGFpbHMvMTQ3NTQyMDkx">《前缀和与差分算法》</span></p>
-<h2 id="前缀和与差分的特征总结"><a class="markdownIt-Anchor" href="#前缀和与差分的特征总结">#</a> 前缀和与差分的特征总结</h2>
+<h2 id="前缀和差分"><a class="markdownIt-Anchor" href="#前缀和差分">#</a> 前缀和 &amp; 差分</h2>
 <table>
 <thead>
 <tr>
@@ -187,6 +187,72 @@ stariverony = Hexo</title>
 <li>当你需要<strong>频繁修改区间值</strong> → 用 <strong>差分</strong>。</li>
 <li>在复杂题目中，常常需要两者结合使用。</li>
 </ul>
+<h2 id="二维前缀和二维差分"><a class="markdownIt-Anchor" href="#二维前缀和二维差分">#</a> 二维前缀和 &amp; 二维差分</h2>
+<table>
+<thead>
+<tr>
+<th>概念</th>
+<th>核心思想</th>
+<th>特点</th>
+<th>常见用途</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>二维前缀和（2D Prefix Sum）</strong></td>
+<td>将 “累加” 扩展到矩阵中，用于快速求任意矩形区域的和。</td>
+<td><ul><li>适合多次查询子矩阵和</li><li>构建 O (n×m)，查询 O (1)</li><li>不适合频繁修改</li></ul></td>
+<td>图像区域和、子矩阵统计、积分图（Integral Image）</td>
+<td>构造：<br> <code>sum[i][j] = a[i][j] + sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1]</code> <br>查询任意矩形  <code>(x1,y1)-(x2,y2)</code>  的和：<br> <code>S = sum[x2][y2] - sum[x1-1][y2] - sum[x2][y1-1] + sum[x1-1][y1-1]</code></td>
+</tr>
+<tr>
+<td><strong>二维差分（2D Difference Array）</strong></td>
+<td>通过 “标记变化角点” 来实现矩形区域的快速修改。</td>
+<td><ul><li>适合多次矩形修改</li><li>修改 O (1)，还原 O (n×m)</li><li>不适合频繁查询</li></ul></td>
+<td>区域增量操作、图像处理、区域更新</td>
+<td>若要让矩形  <code>(x1,y1)-(x2,y2)</code>  全部加  <code>k</code> ：<br> <code>diff[x1][y1] += k</code> <br> <code>diff[x2+1][y1] -= k</code> <br> <code>diff[x1][y2+1] -= k</code> <br> <code>diff[x2+1][y2+1] += k</code> <br>最后通过前缀和还原矩阵：<br> <code>a[i][j] = diff[i][j] + a[i-1][j] + a[i][j-1] - a[i-1][j-1]</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="快速记忆"><a class="markdownIt-Anchor" href="#快速记忆">#</a> 快速记忆</h3>
+<ul>
+<li><strong>二维前缀和：查得快，改得慢。</strong></li>
+<li><strong>二维差分：改得快，查得慢。</strong></li>
+<li>依旧是互为逆过程，只不过 “区间” 变成了 “矩形”。</li>
+</ul>
+<hr>
+<h3 id="应用举例"><a class="markdownIt-Anchor" href="#应用举例">#</a> 应用举例</h3>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>适合方法</th>
+<th>示例思路</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>查询一张图像中某个区域的像素总和</td>
+<td>二维前缀和</td>
+<td>预处理整张图，再 O (1) 查询区域和</td>
+</tr>
+<tr>
+<td>同时给一块区域所有元素加上某个值</td>
+<td>二维差分</td>
+<td>只需在矩形四个角更新，最后整体还原</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="小提示"><a class="markdownIt-Anchor" href="#小提示">#</a> 🪄 小提示</h3>
+<ul>
+<li><strong>前缀和公式和差分公式互为逆操作</strong>。</li>
+<li>实际编程时注意 <strong>数组越界</strong>（所以我建议直接开大一圈的数组，就是 n+2）。</li>
+<li>二维题中常常出现 “坐标从 1 开始” 的设定，请保留  <code>0</code>  行  <code>0</code>  列作为辅助边界。</li>
+</ul>
+<hr>
 <details class="primary"><summary>Counting Rectangles[Medium]</summary><div>
 <div class="tab" data-id="id2" data-title="题目">
 <h1 id="cf1722e-counting-rectangles"><a class="markdownIt-Anchor" href="#cf1722e-counting-rectangles">#</a> <span class="exturl" data-url="aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuL3Byb2JsZW0vQ0YxNzIyRQ==">CF1722E Counting Rectangles</span></h1>
@@ -298,7 +364,7 @@ the number of <em>good arrays</em> modulo <strong>998244353</strong>.</p>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2025-10-06 10:23:41" itemprop="dateModified" datetime="2025-10-06T10:23:41+08:00">2025-10-06</time>
+    <time title="修改时间：2025-10-06 10:27:51" itemprop="dateModified" datetime="2025-10-06T10:27:51+08:00">2025-10-06</time>
   </span>
 </div>
 
@@ -353,7 +419,7 @@ the number of <em>good arrays</em> modulo <strong>998244353</strong>.</p>
     <div class="item left">
       
 
-  <a href="/2025/09/02/%E5%9C%A3%E5%85%BD%E4%B9%8B%E7%8E%8B/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipeyonbf9j20zk0m8e81.jpg" title="圣兽之王">
+  <a href="/2025/09/02/%E5%9C%A3%E5%85%BD%E4%B9%8B%E7%8E%8B/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipexe4oykj20zk0m87ji.jpg" title="圣兽之王">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>圣兽之王</h3>
@@ -377,7 +443,7 @@ the number of <em>good arrays</em> modulo <strong>998244353</strong>.</p>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%BC%80%E5%92%8C%E4%B8%8E%E5%B7%AE%E5%88%86%E7%9A%84%E7%89%B9%E5%BE%81%E6%80%BB%E7%BB%93"><span class="toc-number">1.</span> <span class="toc-text"> 前缀和与差分的特征总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#cf1722e-counting-rectangles"><span class="toc-number"></span> <span class="toc-text"> CF1722E Counting Rectangles</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0"><span class="toc-number">1.</span> <span class="toc-text"> 题目描述</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F"><span class="toc-number">1.1.</span> <span class="toc-text"> 输入格式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F"><span class="toc-number">1.2.</span> <span class="toc-text"> 输出格式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B"><span class="toc-number">2.</span> <span class="toc-text"> 输入输出样例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%93%E5%85%A5"><span class="toc-number">2.1.</span> <span class="toc-text"> 输入</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%93%E5%87%BA"><span class="toc-number">2.2.</span> <span class="toc-text"> 输出</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%B4%E6%98%8E%E6%8F%90%E7%A4%BA"><span class="toc-number">3.</span> <span class="toc-text"> 说明 &#x2F; 提示</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%BC%80%E5%92%8C%E8%A7%A3%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text"> 前缀和解法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#problem-description"><span class="toc-number"></span> <span class="toc-text"> Problem Description</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#definition-of-a-good-array"><span class="toc-number">0.1.</span> <span class="toc-text"> Definition of a good array</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#input"><span class="toc-number">0.2.</span> <span class="toc-text"> Input</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#output"><span class="toc-number">0.3.</span> <span class="toc-text"> Output</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%BC%80%E5%92%8C"><span class="toc-number">1.</span> <span class="toc-text"> 前缀和</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%BC%80%E5%92%8C%E5%B7%AE%E5%88%86"><span class="toc-number">1.</span> <span class="toc-text"> 前缀和 &amp; 差分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C%E4%BA%8C%E7%BB%B4%E5%B7%AE%E5%88%86"><span class="toc-number">2.</span> <span class="toc-text"> 二维前缀和 &amp; 二维差分</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%AB%E9%80%9F%E8%AE%B0%E5%BF%86"><span class="toc-number">2.1.</span> <span class="toc-text"> 快速记忆</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E4%B8%BE%E4%BE%8B"><span class="toc-number">2.2.</span> <span class="toc-text"> 应用举例</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E6%8F%90%E7%A4%BA"><span class="toc-number">2.3.</span> <span class="toc-text"> 🪄 小提示</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#cf1722e-counting-rectangles"><span class="toc-number"></span> <span class="toc-text"> CF1722E Counting Rectangles</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0"><span class="toc-number">1.</span> <span class="toc-text"> 题目描述</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F"><span class="toc-number">1.1.</span> <span class="toc-text"> 输入格式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F"><span class="toc-number">1.2.</span> <span class="toc-text"> 输出格式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B"><span class="toc-number">2.</span> <span class="toc-text"> 输入输出样例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%93%E5%85%A5"><span class="toc-number">2.1.</span> <span class="toc-text"> 输入</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%93%E5%87%BA"><span class="toc-number">2.2.</span> <span class="toc-text"> 输出</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%B4%E6%98%8E%E6%8F%90%E7%A4%BA"><span class="toc-number">3.</span> <span class="toc-text"> 说明 &#x2F; 提示</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%BC%80%E5%92%8C%E8%A7%A3%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text"> 前缀和解法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#problem-description"><span class="toc-number"></span> <span class="toc-text"> Problem Description</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#definition-of-a-good-array"><span class="toc-number">0.1.</span> <span class="toc-text"> Definition of a good array</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#input"><span class="toc-number">0.2.</span> <span class="toc-text"> Input</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#output"><span class="toc-number">0.3.</span> <span class="toc-text"> Output</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%BC%80%E5%92%8C"><span class="toc-number">1.</span> <span class="toc-text"> 前缀和</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -515,35 +581,6 @@ the number of <em>good arrays</em> modulo <strong>998244353</strong>.</p>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E5%8A%A8%E7%94%BB/" title="分类于 动画">动画</a>
-</div>
-
-    <span><a href="/2023/03/05/RWBY/" title="RWBY">RWBY</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C/" title="分类于 C++">C++</a>
-</div>
-
-    <span><a href="/2025/10/06/%E5%89%8D%E7%BC%80%E5%92%8C-%E5%B7%AE%E5%88%86/" title="前缀和&amp;差分">前缀和&差分</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2023/03/05/karory/" title="karory">karory</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
 </div>
 
     <span><a href="/2025/08/24/%E6%B5%8B%E8%AF%95%E9%A1%B5%E9%9D%A2/" title="测试页面">测试页面</a></span>
@@ -553,10 +590,9 @@ the number of <em>good arrays</em> modulo <strong>998244353</strong>.</p>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%B8%B8%E6%88%8F/" title="分类于 游戏">游戏</a>
 </div>
 
-    <span><a href="/2025/08/25/%E6%98%9F%E9%9C%B2%E8%B0%B7%E7%89%A9%E8%AF%AD/" title="星露谷物语">星露谷物语</a></span>
+    <span><a href="/2023/03/05/karory/" title="karory">karory</a></span>
   </li>
 
       
@@ -573,10 +609,40 @@ the number of <em>good arrays</em> modulo <strong>998244353</strong>.</p>
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/C/" title="分类于 C++">C++</a>
+</div>
+
+    <span><a href="/2025/10/06/%E5%89%8D%E7%BC%80%E5%92%8C-%E5%B7%AE%E5%88%86/" title="前缀和&amp;差分">前缀和&差分</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
 <a href="/categories/hentai/" title="分类于 hentai">hentai</a>
 </div>
 
     <span><a href="/2023/03/05/komota/" title="komota">komota</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%8A%A8%E7%94%BB/" title="分类于 动画">动画</a>
+</div>
+
+    <span><a href="/2023/03/05/RWBY/" title="RWBY">RWBY</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%B8%B8%E6%88%8F/" title="分类于 游戏">游戏</a>
+</div>
+
+    <span><a href="/2025/08/25/%E6%98%9F%E9%9C%B2%E8%B0%B7%E7%89%A9%E8%AF%AD/" title="星露谷物语">星露谷物语</a></span>
   </li>
 
   </ul>
